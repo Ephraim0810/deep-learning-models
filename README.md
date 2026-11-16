@@ -62,7 +62,9 @@ This project tests whether residual connections help on 28×28 handwritten lette
 
 The residual model gains 5 points of accuracy over the baseline with a similar number of parameters. The notebook also includes a confusion-matrix analysis of the letters the model gets wrong.
 
-> The EMNIST Letters CSV (about 200 MB) is not included. Download `emnist-letters.csv` from Kaggle and place it next to the notebook.
+The earlier stage of this work is in [`cnn_eda_and_baseline.ipynb`](03-resnet-handwritten-letters/cnn_eda_and_baseline.ipynb). It covers exploratory analysis of the dataset (class balance, image orientation and pixel statistics) and the first convolutional network, which reached about 92% accuracy on the 17,760 held-out test images. The ResNet extension was built on top of this work.
+
+> The EMNIST Letters CSV (about 200 MB) is not included. Download `emnist-letters.csv` from Kaggle and place it next to the notebooks.
 
 ## 04 · Attention-based bidirectional GRU for review sentiment
 
